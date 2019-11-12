@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import List from './List'
+import List from './List';
+import Card from './Card';
 import './App.css';
 
 class App extends Component {
@@ -26,6 +27,9 @@ class App extends Component {
             />
           ))}
         </div>
+      {/*Line added for Card snapshot test*/}
+      <Card />
+      {/*Line added for List snapshot test*/}
       </main>
     );
   }
